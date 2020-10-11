@@ -1,0 +1,75 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0 !important;
+}
+#sidebar {
+    padding: 5px;
+    width: 220px;
+    font-size: larger;
+    background: rgb(2,0,36);
+    background: linear-gradient(25deg, rgba(2,0,36,1) 0%, rgba(7,7,8,1) 63%, rgba(66,77,116,1) 100%);
+}
+#content{
+    margin-left: 220px;
+}
+li{
+    margin: 10px 3px;
+}
+i{
+    padding: 5px;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover, .nav-link:active, .nav-link:focus{
+    background-color: orangered !important;
+    border-radius: 5px;
+}
+#sidebar-utilisateur img{
+    max-width: 30px;
+    border-radius: 20px;
+}
+.footer-link{
+    color: black;
+}
+#footer > div{
+    min-width: 300px;
+}
+#footer{
+    border-bottom: 3px solid black;
+}
+#cards{
+    margin-top: 50px;
+}
+#cards > div{
+    margin: 15px;
+    min-width: 300px;
+    max-width: 500px;
+}
+#mtnVente{
+    font-size: 2em;
+}
+
+table button{
+    color: white !important;
+    margin: 10px;
+}
+table th{
+    padding: 10px;
+}
+.btn-group .btn:hover, .btn-group .btn:active, .btn-group .btn:focus, .btn-group .btn:target, .btn-group .btn:active:focus{
+    background-color: blue !important;
+    color: white !important;
+}
+#tableau > div{
+    margin: 15px;
+}
+.task{
+    border-left: 3px solid orangered;
+    margin-bottom: 20px;
+}
